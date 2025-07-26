@@ -119,21 +119,23 @@ exploit
    <img src="./images/user_think_ssh.png" alt="User .ssh Folder" width="600"/>
 
 2. **Copy the private SSH key to your machine:**
+   
    <img src="./images/private_ssh_key.png" alt="Private SSH Key" width="600"/>
 
-3. **Create and set permissions:**
+4. **Create and set permissions:**
    ```bash
    touch id_rsa
    chmod 600 id_rsa
    ```
 
-4. **Connect via SSH:**
+5. **Connect via SSH:**
    ```bash
    ssh -i id_rsa <user>@<IP>
    ```
    <img src="./images/machine_id_rsa_ssh.png" alt="SSH Connection" width="600"/>
 
-5. **Access as 'think' user:**
+6. **Access as 'think' user:**
+   
    <img src="./images/gain_access.png" alt="Gained Access" width="600"/>
 
 ---
